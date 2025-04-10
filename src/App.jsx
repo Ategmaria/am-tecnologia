@@ -12,7 +12,7 @@ export default function App() {
     setResposta("Gerando trabalho...");
 
     setTimeout(() => {
-      const texto = `📘 Trabalho de Pesquisa\n\nTema: ${tema}\n\n[INTRODUÇÃO]\nO presente trabalho discute o tema '${tema}', com base em estudos recentes e fontes científicas.\n\n[DESENVOLVIMENTO]\nAnálise crítica do tema com dados, autores e contexto atual.\n\n[CONCLUSÃO]\nConclui-se que o tema '${tema}' é de grande relevância, exigindo atenção da comunidade científica.\n\nReferências:\n- SILVA, João. Introdução à Pesquisa Acadêmica. São Paulo: Atlas, 2020.\n- ONU. Relatório sobre Desenvol...
+      const texto = `📘 Trabalho de Pesquisa\n\nTema: ${tema}\n\n[INTRODUÇÃO]\nO presente trabalho discute o tema '${tema}', com base em estudos recentes e fontes científicas.\n\n[DESENVOLVIMENTO]\nAnálise crítica do tema com dados, autores e contexto atual.\n\n[CONCLUSÃO]\nConclui-se que o tema '${tema}' é de grande relevância, exigindo atenção da comunidade científica.\n\nReferências:\n- SILVA, João. Introdução à Pesquisa Acadêmica. São Paulo: Atlas, 2020.\n- ONU. Relatório sobre Desenvolv...
       setResposta(texto);
       setLoading(false);
     }, 2000);
